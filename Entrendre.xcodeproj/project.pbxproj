@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DCA1CB8E2B6D537F003044BF /* EntrendreApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA1CB8D2B6D537F003044BF /* EntrendreApp.swift */; };
+		DCA1CB902B6D537F003044BF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA1CB8F2B6D537F003044BF /* ContentView.swift */; };
+		DCA1CB922B6D5381003044BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCA1CB912B6D5381003044BF /* Assets.xcassets */; };
+		DCA1CB952B6D5381003044BF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCA1CB942B6D5381003044BF /* Preview Assets.xcassets */; };
+		DCA1CB9F2B6D5381003044BF /* EntrendreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA1CB9E2B6D5381003044BF /* EntrendreTests.swift */; };
+		DCA1CBA92B6D5381003044BF /* EntrendreUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA1CBA82B6D5381003044BF /* EntrendreUITests.swift */; };
+		DCA1CBAB2B6D5381003044BF /* EntrendreUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA1CBAA2B6D5381003044BF /* EntrendreUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DCA1CB9B2B6D5381003044BF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DCA1CB822B6D537F003044BF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DCA1CB892B6D537F003044BF;
+			remoteInfo = Entrendre;
+		};
+		DCA1CBA52B6D5381003044BF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DCA1CB822B6D537F003044BF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DCA1CB892B6D537F003044BF;
+			remoteInfo = Entrendre;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DCA1CB8A2B6D537F003044BF /* Entrendre.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Entrendre.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCA1CB8D2B6D537F003044BF /* EntrendreApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntrendreApp.swift; sourceTree = "<group>"; };
+		DCA1CB8F2B6D537F003044BF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		DCA1CB912B6D5381003044BF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DCA1CB942B6D5381003044BF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DCA1CB9A2B6D5381003044BF /* EntrendreTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EntrendreTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCA1CB9E2B6D5381003044BF /* EntrendreTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntrendreTests.swift; sourceTree = "<group>"; };
+		DCA1CBA42B6D5381003044BF /* EntrendreUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EntrendreUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCA1CBA82B6D5381003044BF /* EntrendreUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntrendreUITests.swift; sourceTree = "<group>"; };
+		DCA1CBAA2B6D5381003044BF /* EntrendreUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntrendreUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DCA1CB872B6D537F003044BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCA1CB972B6D5381003044BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCA1CBA12B6D5381003044BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DCA1CB812B6D537F003044BF = {
+			isa = PBXGroup;
+			children = (
+				DCA1CB8C2B6D537F003044BF /* Entrendre */,
+				DCA1CB9D2B6D5381003044BF /* EntrendreTests */,
+				DCA1CBA72B6D5381003044BF /* EntrendreUITests */,
+				DCA1CB8B2B6D537F003044BF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DCA1CB8B2B6D537F003044BF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DCA1CB8A2B6D537F003044BF /* Entrendre.app */,
+				DCA1CB9A2B6D5381003044BF /* EntrendreTests.xctest */,
+				DCA1CBA42B6D5381003044BF /* EntrendreUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DCA1CB8C2B6D537F003044BF /* Entrendre */ = {
+			isa = PBXGroup;
+			children = (
+				DCA1CB8D2B6D537F003044BF /* EntrendreApp.swift */,
+				DCA1CB8F2B6D537F003044BF /* ContentView.swift */,
+				DCA1CB912B6D5381003044BF /* Assets.xcassets */,
+				DCA1CB932B6D5381003044BF /* Preview Content */,
+			);
+			path = Entrendre;
+			sourceTree = "<group>";
+		};
+		DCA1CB932B6D5381003044BF /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				DCA1CB942B6D5381003044BF /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		DCA1CB9D2B6D5381003044BF /* EntrendreTests */ = {
+			isa = PBXGroup;
+			children = (
+				DCA1CB9E2B6D5381003044BF /* EntrendreTests.swift */,
+			);
+			path = EntrendreTests;
+			sourceTree = "<group>";
+		};
+		DCA1CBA72B6D5381003044BF /* EntrendreUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DCA1CBA82B6D5381003044BF /* EntrendreUITests.swift */,
+				DCA1CBAA2B6D5381003044BF /* EntrendreUITestsLaunchTests.swift */,
+			);
+			path = EntrendreUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DCA1CB892B6D537F003044BF /* Entrendre */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCA1CBAE2B6D5381003044BF /* Build configuration list for PBXNativeTarget "Entrendre" */;
+			buildPhases = (
+				DCA1CB862B6D537F003044BF /* Sources */,
+				DCA1CB872B6D537F003044BF /* Frameworks */,
+				DCA1CB882B6D537F003044BF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Entrendre;
+			productName = Entrendre;
+			productReference = DCA1CB8A2B6D537F003044BF /* Entrendre.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DCA1CB992B6D5381003044BF /* EntrendreTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCA1CBB12B6D5381003044BF /* Build configuration list for PBXNativeTarget "EntrendreTests" */;
+			buildPhases = (
+				DCA1CB962B6D5381003044BF /* Sources */,
+				DCA1CB972B6D5381003044BF /* Frameworks */,
+				DCA1CB982B6D5381003044BF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DCA1CB9C2B6D5381003044BF /* PBXTargetDependency */,
+			);
+			name = EntrendreTests;
+			productName = EntrendreTests;
+			productReference = DCA1CB9A2B6D5381003044BF /* EntrendreTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DCA1CBA32B6D5381003044BF /* EntrendreUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCA1CBB42B6D5381003044BF /* Build configuration list for PBXNativeTarget "EntrendreUITests" */;
+			buildPhases = (
+				DCA1CBA02B6D5381003044BF /* Sources */,
+				DCA1CBA12B6D5381003044BF /* Frameworks */,
+				DCA1CBA22B6D5381003044BF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DCA1CBA62B6D5381003044BF /* PBXTargetDependency */,
+			);
+			name = EntrendreUITests;
+			productName = EntrendreUITests;
+			productReference = DCA1CBA42B6D5381003044BF /* EntrendreUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DCA1CB822B6D537F003044BF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					DCA1CB892B6D537F003044BF = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					DCA1CB992B6D5381003044BF = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = DCA1CB892B6D537F003044BF;
+					};
+					DCA1CBA32B6D5381003044BF = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = DCA1CB892B6D537F003044BF;
+					};
+				};
+			};
+			buildConfigurationList = DCA1CB852B6D537F003044BF /* Build configuration list for PBXProject "Entrendre" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DCA1CB812B6D537F003044BF;
+			productRefGroup = DCA1CB8B2B6D537F003044BF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DCA1CB892B6D537F003044BF /* Entrendre */,
+				DCA1CB992B6D5381003044BF /* EntrendreTests */,
+				DCA1CBA32B6D5381003044BF /* EntrendreUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DCA1CB882B6D537F003044BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCA1CB952B6D5381003044BF /* Preview Assets.xcassets in Resources */,
+				DCA1CB922B6D5381003044BF /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCA1CB982B6D5381003044BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCA1CBA22B6D5381003044BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DCA1CB862B6D537F003044BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCA1CB902B6D537F003044BF /* ContentView.swift in Sources */,
+				DCA1CB8E2B6D537F003044BF /* EntrendreApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCA1CB962B6D5381003044BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCA1CB9F2B6D5381003044BF /* EntrendreTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCA1CBA02B6D5381003044BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCA1CBAB2B6D5381003044BF /* EntrendreUITestsLaunchTests.swift in Sources */,
+				DCA1CBA92B6D5381003044BF /* EntrendreUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DCA1CB9C2B6D5381003044BF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DCA1CB892B6D537F003044BF /* Entrendre */;
+			targetProxy = DCA1CB9B2B6D5381003044BF /* PBXContainerItemProxy */;
+		};
+		DCA1CBA62B6D5381003044BF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DCA1CB892B6D537F003044BF /* Entrendre */;
+			targetProxy = DCA1CBA52B6D5381003044BF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		DCA1CBAC2B6D5381003044BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DCA1CBAD2B6D5381003044BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DCA1CBAF2B6D5381003044BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Entrendre/Preview Content\"";
+				DEVELOPMENT_TEAM = 7S88G42XA4;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Josie.Entrendre;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DCA1CBB02B6D5381003044BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Entrendre/Preview Content\"";
+				DEVELOPMENT_TEAM = 7S88G42XA4;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Josie.Entrendre;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DCA1CBB22B6D5381003044BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7S88G42XA4;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Josie.EntrendreTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Entrendre.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Entrendre";
+			};
+			name = Debug;
+		};
+		DCA1CBB32B6D5381003044BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7S88G42XA4;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Josie.EntrendreTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Entrendre.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Entrendre";
+			};
+			name = Release;
+		};
+		DCA1CBB52B6D5381003044BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7S88G42XA4;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Josie.EntrendreUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Entrendre;
+			};
+			name = Debug;
+		};
+		DCA1CBB62B6D5381003044BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7S88G42XA4;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Josie.EntrendreUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Entrendre;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DCA1CB852B6D537F003044BF /* Build configuration list for PBXProject "Entrendre" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCA1CBAC2B6D5381003044BF /* Debug */,
+				DCA1CBAD2B6D5381003044BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DCA1CBAE2B6D5381003044BF /* Build configuration list for PBXNativeTarget "Entrendre" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCA1CBAF2B6D5381003044BF /* Debug */,
+				DCA1CBB02B6D5381003044BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DCA1CBB12B6D5381003044BF /* Build configuration list for PBXNativeTarget "EntrendreTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCA1CBB22B6D5381003044BF /* Debug */,
+				DCA1CBB32B6D5381003044BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DCA1CBB42B6D5381003044BF /* Build configuration list for PBXNativeTarget "EntrendreUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCA1CBB52B6D5381003044BF /* Debug */,
+				DCA1CBB62B6D5381003044BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DCA1CB822B6D537F003044BF /* Project object */;
+}
