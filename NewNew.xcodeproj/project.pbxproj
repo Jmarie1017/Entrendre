@@ -15,7 +15,7 @@
 		DC1250C82B597815004DD8A3 /* NewNewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC1250C72B597815004DD8A3 /* NewNewUITests.swift */; };
 		DC1250CA2B597815004DD8A3 /* NewNewUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC1250C92B597815004DD8A3 /* NewNewUITestsLaunchTests.swift */; };
 		DC5D82522B6BF25400802BB6 /* Slang.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC5D82512B6BF25400802BB6 /* Slang.swift */; };
-		DC9188492B67F27D009E0A05 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC9188482B67F27D009E0A05 /* HomeView.swift */; };
+		DC723A2D2B711C8600A14684 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC723A2C2B711C8600A14684 /* HomeView.swift */; };
 		DC91884B2B67F2DA009E0A05 /* Text Veiw.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC91884A2B67F2DA009E0A05 /* Text Veiw.swift */; };
 /* End PBXBuildFile section */
 
@@ -48,7 +48,7 @@
 		DC1250C72B597815004DD8A3 /* NewNewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewNewUITests.swift; sourceTree = "<group>"; };
 		DC1250C92B597815004DD8A3 /* NewNewUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewNewUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		DC5D82512B6BF25400802BB6 /* Slang.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Slang.swift; sourceTree = "<group>"; };
-		DC9188482B67F27D009E0A05 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		DC723A2C2B711C8600A14684 /* HomeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		DC91884A2B67F2DA009E0A05 /* Text Veiw.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Text Veiw.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -102,7 +102,7 @@
 			children = (
 				DC1250AC2B597812004DD8A3 /* NewNewApp.swift */,
 				DC1250AE2B597812004DD8A3 /* ContentView.swift */,
-				DC9188482B67F27D009E0A05 /* HomeView.swift */,
+				DC723A2C2B711C8600A14684 /* HomeView.swift */,
 				DC91884A2B67F2DA009E0A05 /* Text Veiw.swift */,
 				DC5D82512B6BF25400802BB6 /* Slang.swift */,
 				DC1250B02B597814004DD8A3 /* Assets.xcassets */,
@@ -266,10 +266,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DC9188492B67F27D009E0A05 /* HomeView.swift in Sources */,
 				DC1250AF2B597812004DD8A3 /* ContentView.swift in Sources */,
 				DC91884B2B67F2DA009E0A05 /* Text Veiw.swift in Sources */,
 				DC1250AD2B597812004DD8A3 /* NewNewApp.swift in Sources */,
+				DC723A2D2B711C8600A14684 /* HomeView.swift in Sources */,
 				DC5D82522B6BF25400802BB6 /* Slang.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

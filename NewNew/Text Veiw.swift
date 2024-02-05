@@ -14,9 +14,12 @@ struct TextView: View {
         
         VStack {
             Text(slang.phrase)
-                .foregroundColor(.mint)
+                .font(.largeTitle)
+                .bold()
+                .foregroundColor(.blue)
             
-            Text ("\(slang.meaning) Detroit Words")
+            Text ("\(slang.meaning)")
+                .font(.title)
                 .foregroundColor(.mint)
         }
     }
